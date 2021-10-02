@@ -1,21 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import {useState} from 'react';
+import {Route} from 'react-router-dom';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Incidents from './assets/pages/incidents.js';
+
+
 export default function App() {
+
+  let [incident, worker_name, equipment_name, safety_docs, incident_info] = useState();
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Route path="/"><Incidents ></Incidents></Route>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
