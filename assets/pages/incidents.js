@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     },
     equipmentname: {
         flex: 1,
-        backgroundColor: "tomato",
+        backgroundColor: "gray",
         fontSize: 60
     },
     safetydocs: {
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     },
     incidentsinfo: {
         flex: 1,
-        backgroundColor: "tomato",
+        backgroundColor: "gray",
         fontSize: 60
     }
 })
