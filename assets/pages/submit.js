@@ -23,7 +23,10 @@ const styles = StyleSheet.create({
     },
     titletext: {
         marginTop: 70,
+        marginLeft: 75,
         alignItems: "center",
+        fontSize: 30,
+
     },
     equip1: {
         flex: 0.5,
