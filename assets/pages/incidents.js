@@ -1,11 +1,14 @@
-export default Incidents;
+import * as React from "react";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 
-function Incidents(props){
-    <div>
-        <h1>Incident show page</h1>
-        <h1>Created by(worker name)</h1>
-        <h1>Equipmet name</h1>
-        <h1>Safty docs</h1>
-        <h1>Describe the incidents</h1>
-    </div>
+export default function Incidents(props){
+    return (
+        <View style={{ flex: 1 }}>
+            <View style={{flex: 1, backgroundColor: "grey"}}><Text>Incident show page</Text></View>
+            <View style={{flex: 1, backgroundColor: "tomato"}}><Text>Created by(worker name)</Text></View>
+            <View style={{flex: 1, backgroundColor: "grey"}}><Text>Equipmet name</Text></View>
+            <View style={{flex: 1, backgroundColor: "tomato"}}><Text>Safty docs</Text></View>
+            <View style={{flex: 1, backgroundColor: "grey"}}><Text>Describe the incidents</Text></View>
+        </View>
+    );
 }
