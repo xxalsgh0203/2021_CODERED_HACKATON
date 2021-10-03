@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "hacktober_mohys",
-    "slug": "hacktober_mohys",
+    "name": "FieldSafety",
+    "slug": "FieldSafety",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
